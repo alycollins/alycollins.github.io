@@ -1,0 +1,27 @@
+/*selector {
+  property: value;
+  property: value;
+
+}
+*/
+h1 {
+  font-family: Georgia, serif;
+  color: green;
+  color: orange;
+
+}
+ ul {
+   font-family: Georgia, serif;
+   color: #333333;
+ }
+/* below this is a class selector mark it with a "." */
+ .dairy,
+ .dairy li {
+   /* this selects for list within the class of string. CSS will read until the last element of the string.*/
+   color: #999999
+ }
+
+ .produce,
+ .produce li {
+   color: blue
+ }
