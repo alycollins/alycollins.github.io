@@ -1,15 +1,26 @@
 h1 {
   font-family: Georgia, serif;
-  color: #333333
+  color: #333333;
 }
 h3 {
   font-family: Georgia ,serif;
-  color: #333333
+  color: #333333;
 }
-
+/*look how cool! list-style can change your bullets or take them away entirely*/
 ol {
   font-family: Georgia, serif;
-  color: #333333
+  color: #333333;
+  list-style: none;
+}
+
+ul {
+  font-family: Georgia, serif;
+  color: #333333;
+  list-style: none;
+}
+
+li{
+  margin-bottom: 1em;
 }
 
 body {
@@ -17,13 +28,10 @@ body {
   background: #FEFEF2;
   width: 700px;
   margin: 50px auto;
-  /*font-family: 'Museo Slab', serif;
-  padding: 30px
-  border-radius: 20px;
-  color: dimgray;*/
+  /*padding= things within the box (headers and other items have a box radius to interact with each other. margins are how the box interacts with other boxes so outside of the box spacing. and you can have borders)*/
 }
  h4 {
    font-family: Georgia, serif;
    color: #333333;
-  
+
  }
