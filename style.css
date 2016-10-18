@@ -5,6 +5,7 @@ h1 {
 h3 {
   font-family: Georgia ,serif;
   color: #333333;
+  margin-top: 3em;
 }
 /*look how cool! list-style can change your bullets or take them away entirely*/
 ol {
