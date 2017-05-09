@@ -1,21 +1,27 @@
+/*you can style the whole document with  html {} so like the entire page*/
+html {
+/*font-family: 'Crimson Text', serif;*/
+font-size: Georgia, serif;
+}
+
 h1 {
-  font-family: Georgia, serif;
+  /*font-family: '', serif;*/
   color: #333333;
 }
 h3 {
-  font-family: Georgia ,serif;
+/*font-family: 'Gentium Basic', serif;*/
   color: #333333;
   margin-top: 3em;
 }
 /*look how cool! list-style can change your bullets or take them away entirely*/
 ol {
-  font-family: Georgia, serif;
+/*font-family: 'Gentium Basic', serif;*/
   color: #333333;
   list-style: none;
 }
 
 ul {
-  font-family: Georgia, serif;
+/*font-family: 'Gentium Basic', serif;*/
   color: #333333;
   list-style: none;
 }
@@ -32,7 +38,7 @@ body {
   /*padding= things within the box (headers and other items have a box radius to interact with each other. margins are how the box interacts with other boxes so outside of the box spacing. and you can have borders)*/
 }
  h4 {
-   font-family: Georgia, serif;
+  /* font-family: Georgia, serif;*/
    color: #333333;
 
  }
